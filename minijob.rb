@@ -9,7 +9,7 @@ class Requester
     if object.is_a?(Job)
       @released_jobs << object
     else
-      puts "This is not a Job object !  -  Please Retry"
+      puts "This is not a Job object !  -  Please Retry."
     end
   end
 end
